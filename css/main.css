@@ -68,6 +68,32 @@ header{
     font-weight: 600;
     font-size: 16px;
 }
+.home h1{
+    position: relative;
+    font-size: 60px;
+    left: 10%;
+    top: 30%;
+}
+.home p{
+    position: relative;
+    font-size: 20px;
+    width: 450px;
+    left: 10%;
+    top: 32%;
+}
+.home a{
+    position: relative;
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    background-color: #9b59b6;
+    left: 10%;
+    top: 40%;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 50px;
+    color: #fff;
+}
 .appoinment{
     background-image: url(../assets/images/appoinmentBG.jpg);
     -webkit-background-size: cover;
