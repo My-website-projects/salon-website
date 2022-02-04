@@ -71,8 +71,8 @@ header{
 .home h1{
     position: relative;
     font-size: 60px;
-    left: 10%;
     top: 30%;
+    margin-left: 128px;
 }
 .home p{
     position: relative;
