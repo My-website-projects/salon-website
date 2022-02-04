@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appoinment</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+</head>
+<body>
+    <section class="appoinment">
+        <div class="container" style="margin-left: '28%';">
+            <div class="title">Make an Appointment</div>
+            <form action="register.php" method="post">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter your first name" name="firstName" required> 
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter your last name" name="lastName" required> 
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter your email" name="email" required> 
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your number" name="phoneNumber" required> 
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Date</span>
+                        <input type="date" placeholder="Enter your nic" required> 
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Time</span>
+                        <input type="time" placeholder="Enter your password"  required> 
+                    </div>
+                </div>
+                <div class="gender-details">
+                    <input type="radio" name="gender" value="m" id="dot-1">
+                    <input type="radio" name="gender" value="f" id="dot-2">
+                    <input type="radio" name="gender" value="o" id="dot-3">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefer not to say</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Make an Appointment">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="assets/fontawesome/js/all.min.js"></script>
+</html>
