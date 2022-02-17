@@ -15,10 +15,10 @@
         <img class="logo" src="./assets/images/icons/logo.png" alt="">
         <nav>
             <ul class="nav-area">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About us</a></li>
+                <li><a href="service.php">Services</a></li>
+                <li><a href="contact.php">Contact us</a></li>
             </ul>
         </nav>
     </header>

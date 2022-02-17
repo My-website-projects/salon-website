@@ -1,63 +1,57 @@
+<?php
+    require("./connection/connect.php");
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About US</title>
-
-    <link rel="stylesheet" href="CSS/about.css">
-    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <title>Nataliya Salon</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
     <script src="assets/fontawesome/js/all.min.js"></script>
 </head>
+
 <body>
     <header>
         <img class="logo" src="./assets/images/icons/logo.png" alt="">
         <nav>
             <ul class="nav-area">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About us</a></li>
+                <li><a href="service.php">Services</a></li>
+                <li><a href="contact.php">Contact us</a></li>
             </ul>
         </nav>
+                 <?php
+                    $sql = "SELECT * from customer where email = '".$_SESSION['emailid']."'";
+                    $result=mysqli_query($con,$sql);
+                    if($result){
+                        while($row=mysqli_fetch_assoc($result)){
+                            $Fname=$row['Fname'];
+                            $Lname=$row['Lname'];
+                             echo '<h3><a href="profile.php">'.$Fname.' '.$Lname.'</a></h3>'; 
+                        }
+                    }
+                ?>
     </header>
-    <div class="main-topic">
-        <h1 class="headline">About Us</h1>
-        <p class="subline">Home > About ></p>
-    </div>
-    <section class="home"></section>
-    <section class="about-des">
-        <div class="left">
-            <div class="back-box">
-                <img src="./assets/images/about.jpg" alt="">
-            </div>
-        </div>
-        <div class="right">
-            <h1>We are...</h1>
-            <p>Our main focus is on quality and hygiene. Our Parlour is well equipped with advanced technology equipments and provides best quality services. Our staff is well trained and experienced, offering advanced services in Skin, Hair and Body Shaping that will provide you with a luxurious experience that leave you feeling relaxed and stress free. The specialities in the parlour are, apart from regular bleachings and Facials, many types of hairstyles, Bridal and cine make-up and different types of Facials & fashion hair colourings..</p>
-        </div>
+    <section class="home">
+        <h1>Nataliya Salon</h1>
+        <p>Allow our team of beauty specialists to help you prepare for your wedding snd enhance your special.</p>
+        <a href="appoinment.php">Appoinment Now</a>
     </section>
-    <section class="features">
-        <h1></h1>
-        <div class="container">
-            <div class="feature-box">
-                <div class="box">
-                    <img src="" alt="">
-                    <div class="box-details">
-                        <h2></h2>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
     <footer>
         <div class="container">
             <div class="sec aboutus">
                 <h2>About Us</h2>
-                <p>Our main focus is on quality and hygiene. Our Parlour is well equipped with advanced technology equipments and provides best quality services. Our staff is well trained and experienced, offering....</p>
-                
+                <p>Our main focus is on quality and hygiene. Our Parlour is well equipped with advanced technology
+                    equipments and provides best quality services. Our staff is well trained and experienced,
+                    offering....</p>
+
                 <ul class="sci">
                     <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
                     <li><a href=""><i class="fab fa-instagram-square"></i></i></a></li>
@@ -95,4 +89,5 @@
         </div>
     </footer>
 </body>
+
 </html>

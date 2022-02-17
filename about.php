@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
+    <title>About US</title>
 
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="CSS/about.css">
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
     <script src="assets/fontawesome/js/all.min.js"></script>
 </head>
@@ -15,59 +15,42 @@
         <img class="logo" src="./assets/images/icons/logo.png" alt="">
         <nav>
             <ul class="nav-area">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About us</a></li>
+                <li><a href="service.php">Services</a></li>
+                <li><a href="contact.php">Contact us</a></li>
             </ul>
         </nav>
     </header>
     <div class="main-topic">
-        <h1 class="headline">Contact Us</h1>
-        <p class="subline">Home > Contact ></p>
+        <h1 class="headline">About Us</h1>
+        <p class="subline">Home > About ></p>
     </div>
     <section class="home"></section>
-    <section class="contact-form">
-        <div class="details">
-            <div class="time">
-                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-                <span>7.00 a.m<br>to<br>9.00 p.m.</span>
-            </div>
-            <div class="email">
-                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-                <span>7.00 a.m<br>to<br>9.00 p.m.</span>
-            </div>
-            <div class="">
-                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
-                <span>7.00 a.m<br>to<br>9.00 p.m.</span>
+    <section class="about-des">
+        <div class="left">
+            <div class="back-box">
+                <img src="./assets/images/about.jpg" alt="">
             </div>
         </div>
+        <div class="right">
+            <h1>We are...</h1>
+            <p>Our main focus is on quality and hygiene. Our Parlour is well equipped with advanced technology equipments and provides best quality services. Our staff is well trained and experienced, offering advanced services in Skin, Hair and Body Shaping that will provide you with a luxurious experience that leave you feeling relaxed and stress free. The specialities in the parlour are, apart from regular bleachings and Facials, many types of hairstyles, Bridal and cine make-up and different types of Facials & fashion hair colourings..</p>
+        </div>
+    </section>
+    <section class="features">
+        <h1></h1>
         <div class="container">
-            <div class="title">Write Us</div>
-            <form action="#" method="post">
-                <div class="user-details">
-                    <div class="input-box">
-                        <span class="details">Full Name</span>
-                        <input type="text" placeholder="Enter your full name" name="firstName" required> 
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Email</span>
-                        <input type="text" placeholder="Enter your email" name="email" required> 
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Subject</span>
-                        <input type="text" placeholder="Enter your subject" name="subject" required> 
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Message</span>
-                        <textarea type="text" placeholder="Write the message" name="message" id="" cols="30" rows="10"></textarea> 
+            <div class="feature-box">
+                <div class="box">
+                    <img src="" alt="">
+                    <div class="box-details">
+                        <h2></h2>
+                        <p></p>
                     </div>
                 </div>
-                <div class="button">
-                    <input type="submit" value="Submit">
-                </div>
-            </form>
-        </div>    
+            </div>
+        </div>
     </section>
     <footer>
         <div class="container">

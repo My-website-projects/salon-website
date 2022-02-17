@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isuru Salon</title>
+    <title>Nataliya Salon</title>
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
     <script src="assets/fontawesome/js/all.min.js"></script>
@@ -14,18 +14,18 @@
         <img class="logo" src="./assets/images/icons/logo.png" alt="">
         <nav>
             <ul class="nav-area">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About us</a></li>
+                <li><a href="service.php">Services</a></li>
+                <li><a href="contact.php">Contact us</a></li>
             </ul>
         </nav>
-        <a href="login.html" class="btn-area">Login</a>
+        <a href="login.php" class="btn-area">Login</a>
     </header>
     <section class="home">
         <h1>Nataliya Salon</h1>
         <p>Allow our team of beauty specialists to help you prepare for your wedding snd enhance your special.</p>
-        <a href="appoinment.html">Appoinment Now</a>
+        <a href="login.php">Appoinment Now</a>
     </section>
 
     <footer>

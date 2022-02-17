@@ -108,7 +108,7 @@ header{
     max-width: 700px;
     width: 100%;
     position: relative;
-    top: 70px;
+    top: 120px;
     left: 50%;
     background: #fff;
     padding: 25px 30px;
@@ -213,6 +213,20 @@ form .button input{
 form .button input:hover{
     color: #fff;
     background-color: #9b59b6;
+}
+
+.services{
+    display: flex;
+    margin-top: 15px;
+}
+.services .group{
+    margin-left: 15px;
+}
+.services .group input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
 }
 .login-text{
     margin-left: 29%;
@@ -340,17 +354,3 @@ footer p{
 .contact .info li a:hover{
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
